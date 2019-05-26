@@ -21,16 +21,18 @@ Same as above. Literally no idea.
 
 Hu hu hu :D
 
-### Using NetDog
+### Using bree 
 
 You want usage instructions for a sofftware that has not yet been developed?
 Not possible man.
 
 ## Roadmap  
 
-## Contributing to NetDog
+- Build a network capable app that can execute commands
 
 ## Built With
+
+The C Language
 
 ## Authors
 
