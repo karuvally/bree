@@ -2,68 +2,35 @@
 
 The cute little batch processing engine
 
-## Introduction
+## What is this? 
 
-NetDog is a very simple to use configuration management and monitoring tool. You
-can use it to push configurations to machines on your network and monitor their
-health without spending considerable amount of time figuring out how to use it.  
-As long as you know how to use a mouse and keyboard, you are good to go.
+bree is a simple batch processing engine built on KISS principles. The decision
+to develop bree arose due to two main reasons. I was bored and I needed to learn
+C.
 
 ## Getting Started
 
-NetDog is currenlty in pre-alpha stage and thus there is no installer. You can
-get it up and running using the following instructions.
+I don't have any idea about that at the point. Watch this space, who knows, we
+might have a proof of concept in a month :D
 
 ### Prerequisites
 
-- A non ancient Linux Kernel
-- Python 3.4 or greater 
-- pip
-- Virtualenv
+Same as above. Literally no idea.
 
 ### Installing
 
-    $ python3 -m venv netdog && cd netdog
-
-    $ git clone https://github.com/karuvally/project_green.git src
-
-    $ source bin/activate
-
-    $ cd src 
-
-    $ pip -r requirements 
+Hu hu hu :D
 
 ### Using NetDog
 
-- Run netdog_server.py on the server
-- Create user "netdog" in client computer
-- Configure visudo such that no password is asked when user "netdog" invokes sudo
-- Run netdog_client.py on the client computer as user netdog
-- Use webserver at server_ip:9000 to access the interface
+You want usage instructions for a sofftware that has not yet been developed?
+Not possible man.
 
 ## Roadmap  
 
-- Full featured web interface with control panel
-- Easy to use deployer
-- Beacon signal
-- Client hardware configuration change warning
-- Prewritten scripts for common tasks
-- Scheduled command execution
-- Fine grained permission control for clients
-- Port scanner performance improvements
-- Stable signature verification system
-
 ## Contributing to NetDog
 
-- Fork the current repo
-- Fix the stuff you want to fix
-- Create a pull request neatly detailing what all stuff you fixed / improved
-
 ## Built With
-
-* [Python](http://www.python.org) - An awesome language
-* [Flask](http://flask.pocoo.org) - A mature, non bulky web framework 
-* [PyNaCl](https://pynacl.readthedocs.io/en/stable/) - A cryptography library which just works 
 
 ## Authors
 
