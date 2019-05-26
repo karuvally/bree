@@ -6,5 +6,5 @@
 
 
 // the main function
-def main():
+int main():
 	return 0;
