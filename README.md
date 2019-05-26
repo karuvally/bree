@@ -6,7 +6,12 @@ The cute little batch processing engine
 
 bree is a simple batch processing engine built on KISS principles. The decision
 to develop bree arose due to two main reasons. I was bored and I needed to learn
-C.
+C.  
+The completed package would work like this. You would have a master node
+which does all the batch processing. You would go to a user node (eg. a laptop)
+and request a job to be done (eg. a download). If there are no tasks currently
+being done by the master, it would immediatlely start the download, else it
+would add the job to a queue from which each tasks would be executed one by one.
 
 ## Getting Started
 
@@ -28,7 +33,7 @@ Not possible man.
 
 ## Roadmap  
 
-- Build a network capable app that can execute commands
+- Build a network capable program that can execute commands
 
 ## Built With
 
