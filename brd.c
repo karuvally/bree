@@ -19,7 +19,7 @@ int main(int args_count, char *args[])
 	socklen_t client_addr_size;
 	int rw_retval;
 	char buffer[256];
-	struct sockaddr_in server_addr, client_addr; 
+	struct sockaddr_in server_addr, client_addr;
 
 	return 0;
 }
