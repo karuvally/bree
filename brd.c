@@ -12,7 +12,7 @@
 
 
 //the main function
-int main()
+int main(int args_count, char *args[])
 {
 	//essential variables
 	int socket_fd, accept_fd, port_no;
