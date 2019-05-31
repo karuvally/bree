@@ -21,5 +21,14 @@ int main(int args_count, char *args[])
 	char buffer[256];
 	struct sockaddr_in server_addr, client_addr;
 
+	//create the socket
+	socket_fd = socket(AF_INET, SOCK_STREAM, 0);
+	if (socket_fd < 0)
+	{
+		perror("ERROR opening socket");
+		exit(1);
+	}
+
+	close(socket_fd);
 	return 0;
 }
