@@ -1,2 +1,2 @@
-edit: brd.c
+brd: brd.c
 	gcc -o brd brd.c
