@@ -11,6 +11,13 @@
 #include<netinet/in.h>
 
 
+void error(const char *message)
+{
+	perror(message);
+	exit(1);
+}
+
+
 //the main function
 int main(int args_count, char *args[])
 {
@@ -24,10 +31,7 @@ int main(int args_count, char *args[])
 	//create the socket
 	socket_fd = socket(AF_INET, SOCK_STREAM, 0);
 	if (socket_fd < 0)
-	{
-		perror("ERROR opening socket");
-		exit(1);
-	}
+		error("ERROR opening socket!");
 
 	close(socket_fd);
 	return 0;
