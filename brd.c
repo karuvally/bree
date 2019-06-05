@@ -37,13 +37,13 @@ int main(int args_count, char *args[])
 	bzero((char *) &server_addr, sizeof(server_addr));
 
 	//get port number, convert it to int
-	port_no = atoi(argv[1]);
+	port_no = atoi(args[1]);
 
 	//setup server address family
 	server_addr.sin_family = AF_INET;
 	
 	//convert port_no to big endian, set server port 
-	server_addr.sin_port = htons(portno);
+	server_addr.sin_port = htons(port_no);
 
 	//set IP of host as server IP
 	server_addr.sin_addr.s_addr = INADDR_ANY;
