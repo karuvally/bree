@@ -39,8 +39,14 @@ int main(int args_count, char *args[])
 	//get port number, convert it to int
 	port_no = atoi(argv[1]);
 
-	//setup the server address
+	//setup server address family
 	server_addr.sin_family = AF_INET;
+	
+	//convert port_no to big endian, set server port 
+	server_addr.sin_port = htons(portno);
+
+	//set IP of host as server IP
+	server_addr.sin_addr.s_addr = INADDR_ANY;
 
 	close(socket_fd);
 	return 0;
