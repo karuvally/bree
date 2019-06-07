@@ -48,6 +48,7 @@ int main(int args_count, char *args[])
 	//set IP of host as server IP
 	server_addr.sin_addr.s_addr = INADDR_ANY;
 
+	// close the open stuff
 	close(socket_fd);
 	return 0;
 }
